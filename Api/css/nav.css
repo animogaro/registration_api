@@ -1,0 +1,96 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    z-index: 1000;
+}
+
+.navbar p {
+    font-family: sans-serif;
+    color: black;
+    font-size: 24px;
+    line-height: 5px;
+    float: left;
+    padding: 0px 20px;
+    font-weight: 600;
+}
+
+.navbar ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    float: left;
+}
+
+.navbar ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.navbar ul li a {
+    display: block;
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 55px;
+    padding: 5px 10px 0px 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li ul {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: bisque;
+}
+
+.navbar ul li:hover ul {
+    display: block;
+}
+
+.navbar ul li ul li {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.navbar ul li ul li a {
+    padding: 0px 10px 0px 10px;
+}
+
+.navbar ul li ul li a:hover {
+    background-color: #ffddb3;
+}
+
+.navbar ul li a:hover {
+    background-color: #ffddb3;
+}
+
+.buttons {
+    margin: 7px 0px 0px 0px;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+
+.buttons li {
+    margin-right: 20px;
+}
+
+.buttons li button {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: rgba(1, 1, 1, .2);
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+}
+.buttons li button:hover {
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: rgba(1, 1, 1, .4);
+    color: bisque;
+    border-radius: 10px;
+    transition: .6s;
+}

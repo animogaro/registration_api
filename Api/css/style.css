@@ -1,0 +1,30 @@
+.test1 {
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    transition: all .8s linear;
+    margin-top: 20px;
+}
+
+a:focus[data-filter] {
+    opacity: .8;
+    outline: none;
+}
+
+button:focus[data-filter] {
+    opacity: .8;
+    outline: none;
+}
+
+a[data-filter="simple"]:focus ~ div:not([data-filter="simple"]) {
+    border: none;
+}
+
+button[data-filter="log"]:focus ~ div:not([data-filter="log"]) {
+    border: none;
+}
+
+button[data-filter="reg"]:focus ~ div:not([data-filter="reg"]) {
+    border: none;
+}

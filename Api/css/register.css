@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.register {
+    background: url('../images/bg11.jpg');
+    background-size: cover;
+    height: 540px;
+    width: 720px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -35%);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.register h1 {
+    margin-top: 0%;
+    margin-bottom: 10%;
+    text-align: left;
+    color: bisque;
+    width: 55%;
+    transform: translate(10px, 0px);
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+}
+
+.register img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    transform: translate(10%, -75%);
+}
+
+.det {
+    transform: translate(10px, 0px);
+}
+
+.register b {
+    color: bisque;
+}
+
+.left {
+    height: 70%;
+    width: 50%;
+    float: left;
+    transform: translate(0%, -18%);
+}
+
+.right {
+    height: 70%;
+    width: 50%;
+    float: right;
+    transform: translate(0%, -18%);
+}
+
+.register input {
+    width: 90%;
+    height: 20px;
+}
+
+.right input,
+.right b {
+    margin-left: 10px;
+}
+
+.register input {
+    border: none;
+    border-bottom: 1px solid bisque;
+    border-radius: 0px;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+.right input[type="date"] {
+    width: 60%;
+}
+
+.right input[placeholder="Age"] {
+    width: 30%;
+}
+
+.register input[type="submit"] {
+    width: 40%;
+    font-size: 16px;
+    padding: 0;
+    border: none;
+    margin: 0% 0% 0% 30%;
+    background-color: bisque;
+    border-radius: 10px;
+    color: black;
+    transform: translateY(-20px)
+}
+
+.register input[type="submit"]{}
+
+.butt input:hover {
+    border: 1px solid bisque;
+    background-color: rgba(1, 1, 1, .2);
+    color: bisque;
+    transition: .4s;
+}
+
+.copyright{
+    float: right;
+    font-size: 12px;
+    color: bisque;
+}
